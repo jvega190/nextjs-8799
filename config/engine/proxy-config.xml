@@ -55,7 +55,6 @@
       </server>
       <server>
          <id>preview</id>
-         <url />
          <url>http://localhost:3000</url>
          <patterns>
             <pattern>.*</pattern>
