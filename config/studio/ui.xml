@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
+<?xml version="1.0" encoding="UTF-8"?><!--
   ~ MIT License
   ~
   ~ Copyright (c) 2024 Crafter Software Corporation. All Rights Reserved.
@@ -21,8 +20,7 @@
   ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
-  -->
-<siteUi>
+  --><siteUi>
     <widget id="craftercms.components.Preview" initialEditModeOn="true" initialHighlightMode="all"/>
     <widget id="craftercms.components.ToolsPanel">
         <configuration>
@@ -366,7 +364,6 @@
                     "convert_urls": false,
                     "remove_trailing_brs": false,
                     "media_live_embeds": true,
-                    "autoresize_on_init": false,
                     "autoresize_bottom_margin": 0,
                     "menu": {
                         "tools": { "title": "Tools", "items": "tinymcespellchecker code acecode wordcount" }
