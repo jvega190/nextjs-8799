@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
   ~ MIT License
   ~
   ~ Copyright (c) 2024 Crafter Software Corporation. All Rights Reserved.
@@ -20,7 +21,8 @@
   ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
-  --><siteUi>
+  -->
+<siteUi>
     <widget id="craftercms.components.Preview" initialEditModeOn="true" initialHighlightMode="all"/>
     <widget id="craftercms.components.ToolsPanel">
         <configuration>
@@ -551,7 +553,10 @@
                     <icon id="@mui/icons-material/EventBusyOutlined"/>
                 </control>
             </controls>
-            <dataSources><dataSource id="pages"><icon id="@mui/icons-material/DescriptionOutlined"/></dataSource>
+            <dataSources>
+                <dataSource id="pages">
+                    <icon id="@mui/icons-material/DescriptionOutlined"/>
+                </dataSource>
                 <dataSource id="components">
                     <icon id="@mui/icons-material/ExtensionOutlined"/>
                 </dataSource>
@@ -823,5 +828,5 @@
             </getSpringBean>
         </reference>
     </references>
-    <version>5.0.0.2</version>
+    <version>5.0.0.3</version>
 </siteUi>
