@@ -20,7 +20,7 @@
 
 -->
 <notificationConfig>
-    <version>4.0.3</version>
+    <version>5.0-t</version>
     <deploymentFailureNotification>
         <!-- list of email addresses to notify in case of publishing failure -->
         <!--<email>admin@example.com</email>-->
