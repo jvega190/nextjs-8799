@@ -20,7 +20,7 @@
 
 -->
 <dependency-resolver>
-    <version>4.0.1.1</version>
+    <version>5.0-t</version>
     <item-types>
         <item-type>
             <!-- name of type -->
