@@ -29,7 +29,7 @@
   View the sample for a good starting point.
 -->
 <permissions>
-    <version>4.3.0.0</version>
+    <version>5.0-t</version>
     <role name="author">
         <rule regex="/site/website/.*">
             <allowed-permissions>
