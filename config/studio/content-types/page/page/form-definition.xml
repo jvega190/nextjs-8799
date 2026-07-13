@@ -11,19 +11,19 @@
       <property>
          <name>display-template</name>
          <label>Display Template</label>
-         <value><![CDATA[/templates/web/welcome.ftl]]></value>
+         <value>/templates/web/welcome.ftl</value>
          <type>template</type>
       </property>
       <property>
          <name>no-template-required</name>
          <label>No Template Required</label>
-         <value><![CDATA[false]]></value>
+         <value>false</value>
          <type>boolean</type>
       </property>
       <property>
          <name>merge-strategy</name>
          <label>Merge Strategy</label>
-         <value><![CDATA[inherit-levels]]></value>
+         <value>inherit-levels</value>
          <type>string</type>
       </property>
    </properties>
@@ -44,12 +44,12 @@
                <properties>
                   <property>
                      <name>size</name>
-                     <value><![CDATA[50]]></value>
+                     <value>50</value>
                      <type>int</type>
                   </property>
                   <property>
                      <name>maxlength</name>
-                     <value><![CDATA[50]]></value>
+                     <value>50</value>
                      <type>int</type>
                   </property>
                   <property>
@@ -76,12 +76,12 @@
                <properties>
                   <property>
                      <name>size</name>
-                     <value><![CDATA[50]]></value>
+                     <value>50</value>
                      <type>int</type>
                   </property>
                   <property>
                      <name>maxlength</name>
-                     <value><![CDATA[50]]></value>
+                     <value>50</value>
                      <type>int</type>
                   </property>
                   <property>
@@ -91,19 +91,19 @@
                   </property>
                   <property>
                      <name>tokenize</name>
-                     <value><![CDATA[false]]></value>
+                     <value>false</value>
                      <type>boolean</type>
                   </property>
                   <property>
                      <name>escapeContent</name>
-                     <value><![CDATA[false]]></value>
+                     <value>false</value>
                      <type>boolean</type>
                   </property>
                </properties>
                <constraints>
                   <constraint>
                      <name>required</name>
-                     <value><![CDATA[true]]></value>
+                     <value>true</value>
                      <type>boolean</type>
                   </constraint>
                </constraints>
@@ -142,12 +142,12 @@
                <properties>
                   <property>
                      <name>size</name>
-                     <value><![CDATA[50]]></value>
+                     <value>50</value>
                      <type>int</type>
                   </property>
                   <property>
                      <name>maxlength</name>
-                     <value><![CDATA[50]]></value>
+                     <value>50</value>
                      <type>int</type>
                   </property>
                   <property>
@@ -157,19 +157,19 @@
                   </property>
                   <property>
                      <name>tokenize</name>
-                     <value><![CDATA[false]]></value>
+                     <value>false</value>
                      <type>boolean</type>
                   </property>
                   <property>
                      <name>escapeContent</name>
-                     <value><![CDATA[false]]></value>
+                     <value>false</value>
                      <type>boolean</type>
                   </property>
                </properties>
                <constraints>
                   <constraint>
                      <name>required</name>
-                     <value><![CDATA[true]]></value>
+                     <value>true</value>
                      <type>boolean</type>
                   </constraint>
                </constraints>
@@ -192,12 +192,12 @@
                <properties>
                   <property>
                      <name>size</name>
-                     <value><![CDATA[50]]></value>
+                     <value>50</value>
                      <type>int</type>
                   </property>
                   <property>
                      <name>maxlength</name>
-                     <value><![CDATA[50]]></value>
+                     <value>50</value>
                      <type>int</type>
                   </property>
                   <property>
@@ -207,19 +207,19 @@
                   </property>
                   <property>
                      <name>tokenize</name>
-                     <value><![CDATA[false]]></value>
+                     <value>false</value>
                      <type>boolean</type>
                   </property>
                   <property>
                      <name>escapeContent</name>
-                     <value><![CDATA[false]]></value>
+                     <value>false</value>
                      <type>boolean</type>
                   </property>
                </properties>
                <constraints>
                   <constraint>
                      <name>required</name>
-                     <value><![CDATA[true]]></value>
+                     <value>true</value>
                      <type>boolean</type>
                   </constraint>
                   <constraint>
@@ -250,7 +250,7 @@
                   </property>
                   <property>
                      <name>itemManager</name>
-                     <value><![CDATA[components]]></value>
+                     <value>components</value>
                      <type>datasource:item</type>
                   </property>
                   <property>
@@ -294,7 +294,7 @@
          <properties>
             <property>
                <name>dataType</name>
-               <value><![CDATA[[{"value":"value","label":"","selected":false},{"value":"value_s","label":"String","selected":true},{"value":"value_i","label":"Integer","selected":false},{"value":"value_f","label":"Float","selected":false},{"value":"value_dt","label":"Date","selected":false},{"value":"value_html","label":"Data Type","selected":false}]]]></value>
+               <value>[{"value":"value","label":"","selected":false},{"value":"value_s","label":"String","selected":true},{"value":"value_i","label":"Integer","selected":false},{"value":"value_f","label":"Float","selected":false},{"value":"value_dt","label":"Date","selected":false},{"value":"value_html","label":"Data Type","selected":false}]</value>
                <type>dropdown</type>
             </property>
             <property>
@@ -312,37 +312,37 @@
          <properties>
             <property>
                <name>allowShared</name>
-               <value><![CDATA[true]]></value>
+               <value>true</value>
                <type>boolean</type>
             </property>
             <property>
                <name>allowEmbedded</name>
-               <value><![CDATA[true]]></value>
+               <value>true</value>
                <type>boolean</type>
             </property>
             <property>
                <name>enableBrowse</name>
-               <value><![CDATA[true]]></value>
+               <value>true</value>
                <type>boolean</type>
             </property>
             <property>
                <name>enableSearch</name>
-               <value><![CDATA[true]]></value>
+               <value>true</value>
                <type>boolean</type>
             </property>
             <property>
                <name>baseRepositoryPath</name>
-               <value><![CDATA[/site/components]]></value>
+               <value>/site/components</value>
                <type>string</type>
             </property>
             <property>
                <name>baseBrowsePath</name>
-               <value><![CDATA[/site/components]]></value>
+               <value>/site/components</value>
                <type>string</type>
             </property>
             <property>
                <name>contentTypes</name>
-               <value><![CDATA[/component/hero]]></value>
+               <value>/component/hero</value>
                <type>contentTypes</type>
             </property>
             <property>
@@ -353,4 +353,6 @@
          </properties>
       </datasource>
    </datasources>
+   <previewable>true</previewable>
+   <noThumbnail>true</noThumbnail>
 </form>
