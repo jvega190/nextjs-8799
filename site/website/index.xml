@@ -14,8 +14,8 @@
   <folder-name/>
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2022-01-27T07:30:32.301Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-04-04T16:41:26.488Z</lastModifiedDate_dt>
+  <lastModifiedDate>2026-07-14T14:50:21.352Z</lastModifiedDate>
+  <lastModifiedDate_dt>2026-07-14T14:50:21.352Z</lastModifiedDate_dt>
   <content_o item-list="true">
     <item>
       <key>/site/components/00743ad0-96de-e579-1949-61aa407ade20.xml</key>
@@ -30,5 +30,5 @@
       <disableFlattening>false</disableFlattening>
     </item>
   </content_o>
-  <title_s>Welcome to NextJS on CrafterCMS</title_s>
+  <title_s><![CDATA[Welcome to NextJS on CrafterCMS!]]></title_s>
 </page>
