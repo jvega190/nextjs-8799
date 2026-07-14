@@ -9,8 +9,8 @@
   <file-name>readme.xml</file-name>
   <createdDate>2023-04-04T14:27:32.071Z</createdDate>
   <createdDate_dt>2023-04-04T14:27:32.071Z</createdDate_dt>
-  <lastModifiedDate>2026-07-14T14:50:24.998Z</lastModifiedDate>
-  <lastModifiedDate_dt>2026-07-14T14:50:24.998Z</lastModifiedDate_dt>
+  <lastModifiedDate>2026-07-14T15:51:40.854Z</lastModifiedDate>
+  <lastModifiedDate_dt>2026-07-14T15:51:40.854Z</lastModifiedDate_dt>
   <content_html><![CDATA[<h2>Readme</h2>
 <ol>
 <li>In the CrafterCMS site sandbox directory, you'll find a directory called app, which is the Next.js app. Visit that directory on your terminal and run `yarn`</li>
@@ -22,7 +22,7 @@ Note the value may require quotes.</li>
 <li>Run `yarn dev` to start the node server on localhost:3000</li>
 <li>Open Project Tools (on the sidebar on the left) and select "Configuration"</li>
 <li>Search for "<strong>Proxy Config</strong>"</li>
-<li>Comment line 58 and uncomment line 59</li>
+<li>Comment line <strong>58</strong> and uncomment line 59</li>
 <li>Close the pop-up and refresh the page. You'll now see the next.js application in this area!</li>
 </ol>]]></content_html>
 </component>
