@@ -1,13 +1,13 @@
-import React from 'react';
-import { getInitialProps } from '../lib/api';
-import { contentTypeMap, useCrafterAppContext } from './_app';
-import Typography from '@mui/material/Typography';
+import React from "react";
+import { getInitialProps } from "../lib/api";
+import { contentTypeMap, useCrafterAppContext } from "./_app";
+import Typography from "@mui/material/Typography";
 import {
   ExperienceBuilder,
   RenderComponents,
-  RenderField
-} from '@craftercms/experience-builder/react';
-import Footer from '../components/Footer';
+  RenderField,
+} from "@craftercms/experience-builder/react";
+import Footer from "../components/Footer";
 
 export default function Index({ model }) {
   const { isAuthoring } = useCrafterAppContext();
@@ -23,12 +23,17 @@ export default function Index({ model }) {
           // they would be passed down to Typography, however, because there's
           // a prop name collision (i.e. `component`) we can use componentProps
           // to supply the component prop directly to Typography.
-          component: 'h1'
+          component: "h1",
         }}
         align="center"
         sx={{ m: 1 }}
+        render={(value) => value}
       />
-      <RenderComponents contentTypeMap={contentTypeMap} model={model} fieldId="content_o" />
+      <RenderComponents
+        contentTypeMap={contentTypeMap}
+        model={model}
+        fieldId="content_o"
+      />
       <Footer />
     </ExperienceBuilder>
   );
