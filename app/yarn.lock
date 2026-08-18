@@ -85,6 +85,51 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@base-ui/react@npm:^1.6.0":
+  version: 1.7.0
+  resolution: "@base-ui/react@npm:1.7.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.29.2"
+    "@base-ui/utils": "npm:0.3.2"
+    "@floating-ui/react-dom": "npm:^2.1.9"
+    "@floating-ui/utils": "npm:^0.2.12"
+    use-sync-external-store: "npm:^1.6.0"
+  peerDependencies:
+    "@date-fns/tz": ^1.2.0
+    "@types/react": ^17 || ^18 || ^19
+    date-fns: ^4.0.0
+    react: ^17 || ^18 || ^19
+    react-dom: ^17 || ^18 || ^19
+  peerDependenciesMeta:
+    "@date-fns/tz":
+      optional: true
+    "@types/react":
+      optional: true
+    date-fns:
+      optional: true
+  checksum: 10/244052c254e6fb4495444603379e88e8d7f0121756ec4bf53379e96056ec438d09fafab0a4f5bbd1f4e9e18916fa6558bffded3e78ae7614be203397ca33c982
+  languageName: node
+  linkType: hard
+
+"@base-ui/utils@npm:0.3.2":
+  version: 0.3.2
+  resolution: "@base-ui/utils@npm:0.3.2"
+  dependencies:
+    "@babel/runtime": "npm:^7.29.2"
+    "@floating-ui/utils": "npm:^0.2.12"
+    reselect: "npm:^5.2.0"
+    use-sync-external-store: "npm:^1.6.0"
+  peerDependencies:
+    "@types/react": ^17 || ^18 || ^19
+    react: ^17 || ^18 || ^19
+    react-dom: ^17 || ^18 || ^19
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 10/4255c133bf1aa1a251474161e33fd0c8f4bb424c5b9f951cd982acd4af412a3bd1c5d87c55e54dfa568134774dd384f34023361053780d4622c62618ffbd0434
+  languageName: node
+  linkType: hard
+
 "@base-ui/utils@npm:^0.2.3":
   version: 0.2.9
   resolution: "@base-ui/utils@npm:0.2.9"
@@ -230,8 +275,9 @@ __metadata:
 
 "@craftercms/studio-ui@file:./craftercms-studio-ui-5.0.15.tgz::locator=%40craftercms%2Fnextjs-blueprint%40workspace%3A.":
   version: 5.0.15
-  resolution: "@craftercms/studio-ui@file:./craftercms-studio-ui-5.0.15.tgz#./craftercms-studio-ui-5.0.15.tgz::hash=59c98b&locator=%40craftercms%2Fnextjs-blueprint%40workspace%3A."
+  resolution: "@craftercms/studio-ui@file:./craftercms-studio-ui-5.0.15.tgz#./craftercms-studio-ui-5.0.15.tgz::hash=1e3f7b&locator=%40craftercms%2Fnextjs-blueprint%40workspace%3A."
   dependencies:
+    "@base-ui/react": "npm:^1.6.0"
     "@craftercms/uppy": "npm:4.3.0"
     "@graphiql/plugin-explorer": "npm:^3.0.1"
     "@mui/x-data-grid": "npm:^8.27.5"
@@ -285,7 +331,7 @@ __metadata:
     redux-observable: ^3.0.0-rc.3
     rxjs: ^7.8.1
     video.js: ^8.23.8
-  checksum: 10/2347508b7341935c7e0377ba52d07c66c78e959907f44e0e9f763dc41409e82a66aede00370ae807ebf34b7709cd9ac9bd7f1d91caaac5c7af66503fff43bfc0
+  checksum: 10/1ff23d378da088ef0f929fafc07d72e35ad99716ad125b05c34680eced566f4e939cccb87978fa60a4e258472a3bc59cf31d9e393f78fa09a5dd0abf670a5f5c
   languageName: node
   linkType: hard
 
@@ -694,7 +740,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@floating-ui/react-dom@npm:^2.0.0":
+"@floating-ui/react-dom@npm:^2.0.0, @floating-ui/react-dom@npm:^2.1.9":
   version: 2.1.9
   resolution: "@floating-ui/react-dom@npm:2.1.9"
   dependencies:
@@ -6190,7 +6236,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"reselect@npm:^5.1.1":
+"reselect@npm:^5.1.1, reselect@npm:^5.2.0":
   version: 5.2.0
   resolution: "reselect@npm:5.2.0"
   checksum: 10/e53d37a35f84132682b0a819d942ff7debea90fe126f4bb5eef0f21b1f48f45dec89d27990f2ef5865f5e05d64bb88fb41e4341eb276674aee6f1f7f7362c3e8
